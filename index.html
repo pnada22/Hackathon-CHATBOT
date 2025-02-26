@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoChat AI - Futuristic Chatbot Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/ai/dist/ai.iife.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="animate slide-in-left">
+        <nav>
+            <div class="logo">NeoChat AI</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#demo">Demo</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home" class="animate">
+            <h1></h1>
+            <p></p>
+            <button id="demo-btn" class="cta-button animate">Try now</button>
+        </section>
+    
+        <section id="features" class="animate">
+            <h2>Cutting-Edge Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card animate slide-in-left">
+                    <h3>Advanced NLP</h3>
+                    <p>State-of-the-art natural language processing for human-like interactions.</p>
+                </div>
+                <div class="feature-card animate slide-in-right">
+                    <h3>Multi-Modal</h3>
+                    <p>Seamlessly process text, images, and voice inputs for versatile communication.</p>
+                </div>
+                <div class="feature-card animate slide-in-left">
+                    <h3>Contextual Memory</h3>
+                    <p>Intelligent conversation tracking for personalized and coherent dialogues.</p>
+                </div>
+                <div class="feature-card animate slide-in-right">
+                    <h3>Real-time Learning</h3>
+                    <p>Continuous improvement through user interactions and feedback.</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="demo" class="hidden animate">
+            <div id="chat-container" class="animate slide-in-left">
+                <div id="chat-messages"></div>
+                <div id="typing-indicator" class="hidden">AI is typing...</div>
+                <div id="quick-responses"></div>
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off">
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+
+    <footer>
+        <p>&copy; 2024 NeoChat AI. All rights reserved.</p>
+    </footer>
+
+    
+
+</body>
+</html>
